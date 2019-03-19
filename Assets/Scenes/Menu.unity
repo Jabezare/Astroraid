@@ -2116,6 +2116,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 48fd01cd92dd7a345bea5b3fc1b3d67c, type: 2}
+  slider: {fileID: 913107010}
+  PlayerPref: EffectsVolume
 --- !u!114 &913107010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2164,7 +2166,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 913107009}
-        m_MethodName: SetEffectsLevel
+        m_MethodName: SetLevel
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3190,7 +3192,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1094807611}
-        m_MethodName: SetMusicLevel
+        m_MethodName: SetLevel
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3215,6 +3217,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: d81256daf6e7d8347aecb8f5416f1b3d, type: 2}
+  slider: {fileID: 1094807610}
+  PlayerPref: MusicVolume
 --- !u!1 &1131723280
 GameObject:
   m_ObjectHideFlags: 0
