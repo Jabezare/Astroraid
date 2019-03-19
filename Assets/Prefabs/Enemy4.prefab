@@ -68,7 +68,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fd23a8c7fa29acb41b5fb769d27999b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 60063255f0bd8244c9be69ce88de2236, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0325ee5e316409a47bed47c71b57002f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialHealth: 20
+  initialHealth: 30
   hitEffect: {fileID: 1319746053704954, guid: a7575215c036c4446a34e2d91f439fb5, type: 3}
   deathEffect: {fileID: 1319746053704954, guid: 6d98b0b5794c2c7439cd9e2e55d35d53,
     type: 3}

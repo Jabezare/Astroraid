@@ -5,12 +5,15 @@ using UnityEngine.UI;
 
 public class VolumeText : MonoBehaviour
 {
-    public Text volume;
-    public Slider volumeSlider;
+    public Text musicVolume;
+    public Slider musicVolumeSlider;
+    public Text effectsVolume;
+    public Slider effectsVolumeSlider;
 
     // Update is called once per frame
     void Update()
     {
-        volume.text = Mathf.Round(volumeSlider.value / volumeSlider.maxValue * 100).ToString() + "%";
+        musicVolume.text = Mathf.Round(musicVolumeSlider.value / musicVolumeSlider.maxValue * 100).ToString() + "%";
+        effectsVolume.text = Mathf.Round(effectsVolumeSlider.value / effectsVolumeSlider.maxValue * 100).ToString() + "%";
     }
 }
